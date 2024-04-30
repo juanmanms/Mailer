@@ -17,7 +17,7 @@ class Subscriber {
     return new Promise((resolve, reject) => {
       const params = {
         email: this.email,
-        groups: [process.env.Group_ID_Default],
+        groups: ['107622357335541203'],
         status: 'active',
       };
 
