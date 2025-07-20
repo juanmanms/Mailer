@@ -1,0 +1,28 @@
+{"timestamp":"2025-07-20T03:28:27.371Z","level":"info","message":"Subscriber creation request","meta":{"requestId":"req_1752982107370_hpy089nyv","email":"test@example.com","ip":"::1"},"pid":9100}
+{"timestamp":"2025-07-20T03:28:27.375Z","level":"info","message":"Creating subscriber","meta":{"email":"test@example.com","groupCount":1},"pid":9100}
+{"timestamp":"2025-07-20T03:28:27.955Z","level":"info","message":"Subscriber created successfully","meta":{"email":"test@example.com","duration":"580ms"},"pid":9100}
+{"timestamp":"2025-07-20T03:28:27.958Z","level":"info","message":"Subscriber creation successful","meta":{"requestId":"req_1752982107370_hpy089nyv","email":"test@example.com"},"pid":9100}
+{"timestamp":"2025-07-20T03:31:44.706Z","level":"info","message":"Subscriber creation request","meta":{"requestId":"req_1752982304706_2j31km9hg","email":"testa@example.com","ip":"::ffff:127.0.0.1"},"pid":22624}
+{"timestamp":"2025-07-20T03:31:44.709Z","level":"info","message":"Creating subscriber","meta":{"email":"testa@example.com","groupCount":1},"pid":22624}
+{"timestamp":"2025-07-20T03:31:45.161Z","level":"info","message":"Subscriber created successfully","meta":{"email":"testa@example.com","duration":"452ms"},"pid":22624}
+{"timestamp":"2025-07-20T03:31:45.167Z","level":"info","message":"Subscriber creation successful","meta":{"requestId":"req_1752982304706_2j31km9hg","email":"testa@example.com"},"pid":22624}
+{"timestamp":"2025-07-20T03:38:10.440Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:38:10.435Z"},"pid":23944}
+{"timestamp":"2025-07-20T03:38:44.724Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:38:44.722Z"},"pid":2336}
+{"timestamp":"2025-07-20T03:39:06.785Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:39:06.784Z"},"pid":23704}
+{"timestamp":"2025-07-20T03:39:08.840Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:39:08.839Z"},"pid":15684}
+{"timestamp":"2025-07-20T03:41:09.878Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:41:09.877Z"},"pid":23260}
+{"timestamp":"2025-07-20T03:41:12.325Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:41:12.323Z"},"pid":4672}
+{"timestamp":"2025-07-20T03:41:27.877Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:41:27.875Z"},"pid":24344}
+{"timestamp":"2025-07-20T03:41:33.394Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:41:33.393Z"},"pid":2100}
+{"timestamp":"2025-07-20T03:41:54.647Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:41:54.645Z"},"pid":10548}
+{"timestamp":"2025-07-20T03:41:59.863Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:41:59.862Z"},"pid":22160}
+{"timestamp":"2025-07-20T03:43:58.865Z","level":"info","message":"Incoming request","meta":{"method":"POST","path":"/api/v1/subscribers","ip":"::1","userAgent":"PostmanRuntime/7.43.4"},"pid":22160}
+{"timestamp":"2025-07-20T03:43:58.889Z","level":"info","message":"Processing subscriber creation","meta":{"requestId":"req_1752983038888_edlhyh9kw","email":"testa@example.com","groupsCount":0,"ip":"::1"},"pid":22160}
+{"timestamp":"2025-07-20T03:43:58.890Z","level":"info","message":"Creating subscriber via MailerLite API","meta":{"email":"testa@example.com","groupCount":1},"pid":22160}
+{"timestamp":"2025-07-20T03:43:59.439Z","level":"info","message":"Subscriber created successfully","meta":{"email":"testa@example.com","duration":"549ms"},"pid":22160}
+{"timestamp":"2025-07-20T03:43:59.440Z","level":"info","message":"Subscriber created successfully","meta":{"requestId":"req_1752983038888_edlhyh9kw","email":"testa@example.com"},"pid":22160}
+{"timestamp":"2025-07-20T03:47:21.139Z","level":"info","message":"Processing subscriber creation","meta":{"requestId":"req_1752983241139_9o8xj0uv1","email":"test5@example.com","groupsCount":2,"ip":"::ffff:127.0.0.1"},"pid":22160}
+{"timestamp":"2025-07-20T03:47:21.133Z","level":"info","message":"Incoming request","meta":{"method":"POST","path":"/api/v1/subscribers","ip":"::ffff:127.0.0.1","userAgent":"Thunder Client (https://www.thunderclient.com)"},"pid":22160}
+{"timestamp":"2025-07-20T03:47:21.140Z","level":"info","message":"Creating subscriber via MailerLite API","meta":{"email":"test5@example.com","groupCount":2},"pid":22160}
+{"timestamp":"2025-07-20T03:47:21.571Z","level":"info","message":"Subscriber created successfully","meta":{"email":"test5@example.com","duration":"431ms"},"pid":22160}
+{"timestamp":"2025-07-20T03:47:21.578Z","level":"info","message":"Subscriber created successfully","meta":{"requestId":"req_1752983241139_9o8xj0uv1","email":"test5@example.com"},"pid":22160}
