@@ -40,3 +40,4 @@
 {"timestamp":"2025-08-08T21:10:04.122Z","level":"info","message":"Creating subscriber via MailerLite API","meta":{"email":"node20@example.com","groupCount":2},"pid":16020}
 {"timestamp":"2025-08-08T21:10:04.622Z","level":"info","message":"Subscriber created successfully","meta":{"email":"node20@example.com","duration":"500ms"},"pid":16020}
 {"timestamp":"2025-08-08T21:10:04.624Z","level":"info","message":"Subscriber created successfully","meta":{"requestId":"req_1754687404120_ql6qhe33f","email":"node20@example.com"},"pid":16020}
+{"timestamp":"2025-08-08T21:27:19.577Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-08-08T21:27:19.576Z"},"pid":27412}
