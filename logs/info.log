@@ -28,3 +28,9 @@
 {"timestamp":"2025-07-20T03:47:21.578Z","level":"info","message":"Subscriber created successfully","meta":{"requestId":"req_1752983241139_9o8xj0uv1","email":"test5@example.com"},"pid":22160}
 {"timestamp":"2025-07-20T03:48:57.407Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:48:57.406Z"},"pid":18816}
 {"timestamp":"2025-07-20T03:59:34.388Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-20T03:59:34.387Z"},"pid":20368}
+{"timestamp":"2025-07-20T04:34:16.910Z","level":"info","message":"Incoming request","meta":{"method":"POST","path":"/api/v1/subscribers","ip":"::1","userAgent":"PostmanRuntime/7.43.4"},"pid":20368}
+{"timestamp":"2025-07-20T04:34:16.970Z","level":"info","message":"Processing subscriber creation","meta":{"requestId":"req_1752986056969_hftk92wbl","email":"info@juanmanms.es","groupsCount":0,"ip":"::1"},"pid":20368}
+{"timestamp":"2025-07-20T04:34:16.972Z","level":"info","message":"Creating subscriber via MailerLite API","meta":{"email":"info@juanmanms.es","groupCount":1},"pid":20368}
+{"timestamp":"2025-07-20T04:34:17.557Z","level":"info","message":"Subscriber created successfully","meta":{"email":"info@juanmanms.es","duration":"585ms"},"pid":20368}
+{"timestamp":"2025-07-20T04:34:17.558Z","level":"info","message":"Subscriber created successfully","meta":{"requestId":"req_1752986056969_hftk92wbl","email":"info@juanmanms.es"},"pid":20368}
+{"timestamp":"2025-07-21T05:44:42.557Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-07-21T05:44:42.552Z"},"pid":16284}
