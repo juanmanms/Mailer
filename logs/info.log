@@ -51,3 +51,6 @@
 {"timestamp":"2025-08-11T11:07:03.652Z","level":"info","message":"Incoming request","meta":{"method":"GET","path":"/","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"},"pid":18788}
 {"timestamp":"2025-08-11T11:26:11.130Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"development","timestamp":"2025-08-11T11:26:11.125Z"},"pid":15040}
 {"timestamp":"2025-08-11T11:27:23.325Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"production","timestamp":"2025-08-11T11:27:23.324Z"},"pid":15904}
+{"timestamp":"2025-08-22T11:16:16.029Z","level":"info","message":"Server started","meta":{"port":3000,"environment":"production","timestamp":"2025-08-22T11:16:16.028Z"},"pid":9680}
+{"timestamp":"2025-08-22T11:16:25.321Z","level":"info","message":"Server started","meta":{"port":443,"environment":"production","timestamp":"2025-08-22T11:16:25.320Z"},"pid":10756}
+{"timestamp":"2025-08-22T11:16:42.203Z","level":"info","message":"Server started","meta":{"port":3000,"environment":"production","timestamp":"2025-08-22T11:16:42.202Z"},"pid":14592}

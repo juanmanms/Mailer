@@ -108,10 +108,14 @@ app.use((error, req, res, next) => {
   res.status(500).json(errorResponse);
 });
 
-const PORT = process.env.NODE_ENV === 'production' ? 443 : process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  logger.info('Server started', {
+    port: PORT,
+    environment: process.env.NODE_ENV || 'development',
+    timestamp: new Date().toISOString()
+  });
 });
 
 module.exports = app;
