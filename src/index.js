@@ -112,8 +112,8 @@ const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
   logger.info('Server started', {
-    port: PORT,
-    environment: process.env.NODE_ENV || 'development',
+    port: 443,
+    environment: process.env.NODE_ENV || 'production',
     timestamp: new Date().toISOString()
   });
 });
