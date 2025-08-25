@@ -75,3 +75,5 @@
 {"timestamp":"2025-08-25T12:23:31.498Z","level":"info","message":"Creating subscriber via MailerLite API","meta":{"email":"nodepruebasda@example.com","groupCount":2},"pid":17128}
 {"timestamp":"2025-08-25T12:23:31.985Z","level":"info","message":"Subscriber created successfully","meta":{"email":"nodepruebasda@example.com","duration":"487ms"},"pid":17128}
 {"timestamp":"2025-08-25T12:23:31.986Z","level":"info","message":"Subscriber created successfully","meta":{"requestId":"req_1756124611496_egc4ri9ka","email":"nodepruebasda@example.com"},"pid":17128}
+{"timestamp":"2025-08-25T12:25:20.521Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"production","timestamp":"2025-08-25T12:25:20.520Z"},"pid":21752}
+{"timestamp":"2025-08-25T12:26:53.003Z","level":"info","message":"Server started","meta":{"port":"3000","environment":"production","timestamp":"2025-08-25T12:26:53.002Z"},"pid":4456}
