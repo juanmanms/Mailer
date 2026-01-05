@@ -1,17 +1,26 @@
-const fs = require('fs');
-const path = require('path');
-
-//Cargar la API Key desde el archivo de configuración
-const apiKeyConfig = JSON.parse(
-  fs.readFileSync(path.join(__dirname, '../config/apiKey.json'), 'utf8')
-);
-
-process.env.API_KEY = process.env.API_KEY || apiKeyConfig.API_KEY;
-
 const express = require('express');
 const cors = require('cors');
 const logger = require('./utils/logger');
 require('dotenv').config();
+
+const fs = require('fs');
+const path = require('path');
+
+let apiKey;
+try {
+  const apiKeyPath = path.join(__dirname, '../config/apiKey.json');
+  if (fs.existsSync(apiKeyPath)) {
+    const json = JSON.parse(fs.readFileSync(apiKeyPath, 'utf8'));
+    apiKey = json.API_KEY || json.apiKey;
+  }
+} catch (err) {
+  // no hacer que falle el arranque por falta de archivo
+}
+
+// only override if apiKey was successfully read
+if (apiKey) {
+  process.env.API_KEY = apiKey;
+}
 
 const app = express();
 
