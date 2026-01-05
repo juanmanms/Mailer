@@ -1,12 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
-// Cargar la API Key desde el archivo de configuración
-// const apiKeyConfig = JSON.parse(
-//   fs.readFileSync(path.join(__dirname, '../config/apiKey.json'), 'utf8')
-// );
+//Cargar la API Key desde el archivo de configuración
+const apiKeyConfig = JSON.parse(
+  fs.readFileSync(path.join(__dirname, '../config/apiKey.json'), 'utf8')
+);
 
-// process.env.API_KEY = process.env.API_KEY || apiKeyConfig.API_KEY;
+process.env.API_KEY = process.env.API_KEY || apiKeyConfig.API_KEY;
 
 const express = require('express');
 const cors = require('cors');
